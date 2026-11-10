@@ -19,3 +19,4 @@ if c % 2 == 0:
     print(f"El número {c} es par.")
 else:
     print(f"El número {c} es impar.")
+

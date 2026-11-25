@@ -1,0 +1,6 @@
+Hola, estudiantes de POO II
+Este archivo lo creó Python
+Cuenca - Ecuador
+Johncito es tetoncito
+Dieguito cochinito
+Línea agregada después

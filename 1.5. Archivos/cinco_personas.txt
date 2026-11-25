@@ -1,0 +1,30 @@
+Persona 1: 
+    Nombre: Samuel
+    Apellido: Tobar
+    Edad: 18
+    Correo: ola123@gmail.com 
+Persona 2: 
+    Nombre: Johncito
+    Apellido: Cabrera
+    Edad: 24
+    Correo: ola123@gmail.com 
+Persona 3: 
+    Nombre: Santiago
+    Apellido: Rubio
+    Edad: 24
+    Correo: ola123@gmail.com 
+Persona 4: 
+    Nombre: Diego
+    Apellido: Rojas
+    Edad: 19
+    Correo: ola123@gmail.com 
+Persona 5: 
+    Nombre: Deivid
+    Apellido: Ortega
+    Edad: 19
+    Correo: ola123@gmail.com
+Persona 6:
+    Nombre: Gerard
+    Apellido: Pérez
+    Edad : 20
+    Correo: ola123@gmail.com

@@ -1,4 +1,4 @@
-class Vista_farmacia:
+class VistaFarmacia:
     def menu_farmacia(self):
         print("\n--- FARMACIA SAN JOSÉ ---")
         print("1. Registrar medicamento")

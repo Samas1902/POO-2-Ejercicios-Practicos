@@ -7,10 +7,8 @@ class Medicamento:
 
     def vender(self, cantidad):
         if cantidad <= 0:
-            print("ERROR: la cantidad debe ser mayor que cero.")
             return False
         if cantidad > self.cajas:
-            print(f"ERROR: solo hay {self.cajas} cajas.")
             return False
         self.cajas -= cantidad
         return True
@@ -43,5 +41,15 @@ class ListaMedicamentos:
                 return med
         return None
 
-    def mostrar_medicamentos(self):
+    def obtener_medicamentos(self):
         return self.listaMedicamentos
+
+    def vender_medicamento(self, codigo, cantidad):
+        med = self.buscar_medicamento(codigo)
+        if med is None:
+            return "ERROR: no existe ese código."
+        if cantidad <= 0:
+            return "ERROR: la cantidad debe ser mayor que cero."
+        if not med.vender(cantidad):
+            return f"ERROR: solo hay {med.cajas} cajas."
+        return f"Listo. Quedan {med.cajas} cajas."
